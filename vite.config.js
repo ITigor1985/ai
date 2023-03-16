@@ -5,5 +5,5 @@ export default {
   css: {
     devSourcemap: true,
   },
-  base: "/ai/",
+  
 };
