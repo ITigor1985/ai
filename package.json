@@ -6,51 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "devDependencies": {
     "sass": "^1.58.0",
     "vite": "^4.1.0"
-  },
-  "description": "In order to see this file in preview mode in VS Code, press ```Ctrl + Shift + V```",
-  "main": "vite.config.js",
-  "dependencies": {
-    "chokidar": "^3.5.3",
-    "anymatch": "^3.1.3",
-    "braces": "^3.0.2",
-    "binary-extensions": "^2.2.0",
-    "esbuild": "^0.16.17",
-    "function-bind": "^1.1.1",
-    "has": "^1.0.3",
-    "immutable": "^4.2.4",
-    "fill-range": "^7.0.1",
-    "is-core-module": "^2.11.0",
-    "glob-parent": "^5.1.2",
-    "is-extglob": "^2.1.1",
-    "is-glob": "^4.0.3",
-    "is-binary-path": "^2.1.0",
-    "is-number": "^7.0.0",
-    "nanoid": "^3.3.4",
-    "picocolors": "^1.0.0",
-    "postcss": "^8.4.21",
-    "resolve": "^1.22.1",
-    "normalize-path": "^3.0.0",
-    "rollup": "^3.15.0",
-    "source-map-js": "^1.0.2",
-    "path-parse": "^1.0.7",
-    "picomatch": "^2.3.1",
-    "readdirp": "^3.6.0",
-    "supports-preserve-symlinks-flag": "^1.0.0",
-    "to-regex-range": "^5.0.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ITigor1985/ai.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ITigor1985/ai/issues"
-  },
-  "homepage": "https://github.com/ITigor1985/ai#readme"
+  }
 }
